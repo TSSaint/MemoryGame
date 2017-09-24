@@ -20,6 +20,7 @@ var cards = [
 		cardImage: "images/king-of-diamonds.png"
 	}
 ];
+
 var cardsInPlay = [];
 
 var checkForMatch = function () {
@@ -40,6 +41,3 @@ var flipCard = function (cardId) {
 		checkForMatch();
 	}
 };
-
-flipCard(0);
-flipCard(2);
